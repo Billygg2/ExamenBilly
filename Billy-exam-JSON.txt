@@ -35,10 +35,10 @@ JSON Utilizados
 
 -Patch by ID http://localhost:7003/api/VentaBilly/4
 
-        Juan Edit ID: 4
+        Juan Edit "nombre":Joel
   {
     "fecha": "2024-05-22T04:30:29.747+00:00",
-    "nombre": "Juan",
+    "nombre": "Joel",
     "estado": true,
     "cantidad": 1
   }
