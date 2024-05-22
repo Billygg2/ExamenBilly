@@ -10,14 +10,16 @@ JSON Utilizados
     "fecha": "2024-05-22T04:30:29.747+00:00",
     "nombre": "Billy",
     "estado": true,
-    "cantidad": 1
+    "cantidad": 1,
+    "cliente": null
   },
   {
     "id": 2,
     "fecha": "2024-05-22T04:30:29.747+00:00",
     "nombre": "Jorge",
     "estado": true,
-    "cantidad": 2
+    "cantidad": 2,
+    "cliente": null
   }
 ]
 -------------------------------------------------------------------------
@@ -26,7 +28,7 @@ JSON Utilizados
 
   {
     "id": 3,
-    "fecha": "2024-05-22T04:30:29.747+00:00",
+    "fecha": "2024-05-22",
     "nombre": "Juan",
     "estado": true,
     "cantidad": 1
@@ -36,12 +38,14 @@ JSON Utilizados
 -Patch by ID http://localhost:7003/api/VentaBilly/4
 
         Juan Edit "nombre":Joel
-  {
-    "fecha": "2024-05-22T04:30:29.747+00:00",
-    "nombre": "Joel",
-    "estado": true,
-    "cantidad": 1
-  }
+{
+  "id": 4,
+  "fecha": "2024-05-22T04:30:29.747+00:00",
+  "nombre": "Joel",
+  "estado": true,
+  "cantidad": 1,
+  "cliente": null
+}
 ------------------------------------------------------------------------
 
 -Delete By Name  http://localhost:7003/api/VentaBilly/Juan
