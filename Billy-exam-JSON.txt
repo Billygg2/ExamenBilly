@@ -35,11 +35,11 @@ JSON Utilizados
   }
 ------------------------------------------------------------------------
 
--Patch by ID http://localhost:7003/api/VentaBilly/4
+-Patch by ID http://localhost:7003/api/VentaBilly/3
 
         Juan Edit "nombre":Joel
-{
-  "id": 4,
+{                                                               
+  "id": 3,
   "fecha": "2024-05-22T04:30:29.747+00:00",
   "nombre": "Joel",
   "estado": true,
