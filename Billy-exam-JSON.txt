@@ -1,0 +1,49 @@
+JSON Utilizados
+
+----------------------------- Venta --------------------------------------
+
+-GetAll  http://localhost:7003/api/VentaBilly
+
+[
+  {
+    "id": 1,
+    "fecha": "2024-05-22T04:30:29.747+00:00",
+    "nombre": "Billy",
+    "estado": true,
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "fecha": "2024-05-22T04:30:29.747+00:00",
+    "nombre": "Jorge",
+    "estado": true,
+    "cantidad": 2
+  }
+]
+-------------------------------------------------------------------------
+
+-Post http://localhost:7003/api/VentaBilly
+
+  {
+    "id": 3,
+    "fecha": "2024-05-22T04:30:29.747+00:00",
+    "nombre": "Juan",
+    "estado": true,
+    "cantidad": 1
+  }
+------------------------------------------------------------------------
+
+-Patch by ID http://localhost:7003/api/VentaBilly/4
+
+        Juan Edit ID: 4
+  {
+    "fecha": "2024-05-22T04:30:29.747+00:00",
+    "nombre": "Juan",
+    "estado": true,
+    "cantidad": 1
+  }
+------------------------------------------------------------------------
+
+-Delete By Name  http://localhost:7003/api/VentaBilly/Juan
+
+[]
